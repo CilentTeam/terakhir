@@ -1,0 +1,11 @@
+> const hw = { 
+key: {
+fromMe: false, 
+participant: `0@s.whatsapp.net`, ...(m.from ? { remoteJid: "@s.whatsapp.net" } : {}) 
+},
+"message": {
+"contactMessage": {
+"displayName": "WhatsApp Support",
+"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Support;WhatsApp;;;\nFN:WhatsApp Support\nORG:WhatsApp Support\nTITLE:\nitem1.TEL;waid=15517868012:+1 (551) 786-8012\nitem1.X-ABLabel:Ponsel\nX-WA-BIZ-NAME:WhatsApp Support\nEND:VCARD"
+}}}
+hisoka.sendMessage(from,{text:`awokawokawok crash`},{quoted:hw})
