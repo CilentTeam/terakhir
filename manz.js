@@ -82,10 +82,9 @@ async function startalfa() {
     alfa.ws.on('CB:call', async (json) => {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
-    let pa7rick = await alfa.sendContact(callerId, global.owner)
-    alfa.sendMessage(callerId, { text: `Sistem otomatis block!\nJangan menelpon bot!\nSilahkan Hubungi Owner Untuk Dibuka !`}, { quoted : pa7rick })
+    let pa7rick = await alfa.sendMessage(callerId, { text: `Jangan Telpon Ya Ini Yang Online Bot, Ntar Owner Ku Juga Bales Sabar Ya`})
+    alfa.sendMessage(callerId, { text: `Di Baca Ya`}, { quoted : pa7rick })
     await sleep(8000)
-    await alfa.updateBlockStatus(callerId, "block")
     }
     })
 
@@ -107,7 +106,7 @@ async function startalfa() {
     
     // Group Update
 
-	 alfa.ev.on('group-participants.update', async (anu) => {
+	/* alfa.ev.on('group-participants.update', async (anu) => {
         console.log(anu)
         if (!bug.includes(anu.id)) return
         try {
@@ -142,7 +141,7 @@ async function startalfa() {
         } catch (err) {
             console.log(err)
         }
-    })
+    })*/
 	
 	
     // Setting
