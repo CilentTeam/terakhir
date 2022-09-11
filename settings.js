@@ -1,7 +1,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.premium = ['6281327496283']
+global.premium = ['6287731367122']
 global.packname = ''
 global.author = 'alfa'
 global.sessionName = 'session'
@@ -10,9 +10,9 @@ global.namaownernya = 'Alfa'
 global.dapkey = 'Kirbotz123'
 global.lolkey = 'Atakbotz'
 global.kirkey = 'KirBotz'
-global.wame = 'https://wa.me/6281327496283'
+global.wame = 'https://wa.me/6287731367122'
 global.gckirbotz = 'https://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ'
-global.ownerNumber = ["6281327496283@s.whatsapp.net"]
+global.ownerNumber = ["6287731367122@s.whatsapp.net"]
 global.email = 'tesheroku123@gmail.com'
 global.yt = 'https://bit.ly/39Ivus6'
 global.webkir = 'https://bit.ly/3yk3gOo'
