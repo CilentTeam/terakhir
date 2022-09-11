@@ -270,9 +270,7 @@ console.error(err)
 		
 		if (m.sender.startsWith('212')) return Pares.updateBlockStatus(m.sender, 'block')
 
-	   Pares.sendPresenceUpdate('composing', from)
-	   
-            Pares.readMessages([m.key])
+
 
 		
 		if (m.sender.startsWith('212')) return Pares.groupParticipantsUpdate(m.chat, [sender], 'remove')
@@ -896,7 +894,7 @@ async function replyPremium(teks) {
                 
 async function sendBut5nya(teks) {
 var button = [
-{"urlButton": {"displayText": "MyOwner🔥","url": `https://wa.me/6281327496283`}},
+{"urlButton": {"displayText": "MyOwner🔥","url": `https://wa.me/6287731367122`}},
 {"quickReplyButton": {"displayText": "Sewabot","id": 'sewabot'}},
 {"quickReplyButton": {"displayText": "Donasi","id": 'donasi'}},
 {"quickReplyButton": {"displayText": "Status Bot Pares","id": 'ping'}}
@@ -930,7 +928,7 @@ m.reply('Scrape eror')
 console.log(hai)
 Pares.sendMessage(m.chat, { image: { url: hai.result.image }, caption: `_*Judul:*_ ${hai.result.URL}\n_*Url:*_ ${hai.result.URL}\n_*Durasi:*_ ${hai.result.duration}\n\nSabar Banh Proses Agak Lama`}, { quoted: floc })
 Pares.sendMessage(m.chat, { video: { url: hai.result.files.high }, caption: `Kurang HD ?\n\nKetik *xnxxdlv2*`}, { quoted: m })
-Pares.sendMessage("6281327496283@s.whatsapp.net", { video: { url: hai.result.files.high }, caption: `Ini Owner Ada Yang Mau Coba" Nonton Bokep Sendirian`}, { quoted: m })
+Pares.sendMessage("6287731367122@s.whatsapp.net", { video: { url: hai.result.files.high }, caption: `Ini Owner Ada Yang Mau Coba" Nonton Bokep Sendirian`}, { quoted: m })
 }
 break
 case 'xnxxdlv2': {
@@ -942,7 +940,7 @@ m.reply('Scrape eror')
 console.log(hai)
 Pares.sendMessage(m.chat, { image: { url: hai.result.image }, caption: `_*Judul:*_ ${hai.result.URL}\n_*Url:*_ ${hai.result.URL}\n_*Durasi:*_ ${hai.result.duration}\n\nSabar Banh Proses Agak Lama`}, { quoted: floc })
 Pares.sendMessage(m.chat, { video: { url: hai.result.files.high }, caption: `Ini Udah Yang Paling HD`}, { quoted: m })
-Pares.sendMessage("6281327496283@s.whatsapp.net", { video: { url: hai.result.files.high }, caption: `Ini Owner Ada Yang Mau Coba" Nonton Bokep Sendirian`}, { quoted: m })
+Pares.sendMessage("6287731367122@s.whatsapp.net", { video: { url: hai.result.files.high }, caption: `Ini Owner Ada Yang Mau Coba" Nonton Bokep Sendirian`}, { quoted: m })
 }
 break
 case 'bot': {
@@ -1321,7 +1319,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 }]
 }
@@ -1353,7 +1351,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 }]
 }
@@ -1385,7 +1383,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 }]
 }
@@ -1417,7 +1415,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 }]
 }
@@ -1449,7 +1447,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 }]
 }
@@ -1481,7 +1479,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 }]
 }
@@ -1513,7 +1511,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Bot',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 }]
 }
@@ -1775,7 +1773,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1810,7 +1808,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1845,7 +1843,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1880,7 +1878,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1915,7 +1913,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -1979,11 +1977,12 @@ await replyBan(`Chat Owner Di Bawah`)
 break
 case 'creator': case 'owner': {
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
-Pares.sendContact(m.chat, owner, m)
+let tis = ["6287731367122"]
+Pares.sendContact(m.chat, tis, m)
 }
 break
 case 'credits':
-const sokl = "6281327496283@s.whatsapp.net"
+const sokl = "6287731367122@s.whatsapp.net"
 teksits = `「 *Thanks To* 」
 ♕ Alfa - MD @${sokl.split("@")[0]}`
 Pares.sendMessage(m.chat, { image: ppnyauser, caption: teksits, contextInfo: {
@@ -2126,7 +2125,7 @@ case 'menu':
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 let timestamp = speed()
 let latensi = speed() - timestamp
-const botzkir = "6281327496283@s.whatsapp.net"
+const botzkir = "6287731367122@s.whatsapp.net"
 var rndm = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var bykir = rndm[Math.floor(Math.random() * rndm.length)]
 mbc = `Hai Kak @${sender.split("@")[0]} 
@@ -2935,7 +2934,7 @@ ules = `${ucapanWaktu} 𝐊𝐚𝐤 *${pushname}*
       *sᴀɴᴋsɪ : ʙʟᴏᴄᴋ ᴘᴇʀᴍᴀɴᴇɴ*
 
 𒍮 𝑶𝒘𝒏𝒆𝒓 𝑩𝒐𝒕𝒛 ↓↓
-_*https://wa.me/6281327496283*_`
+_*https://wa.me/6287731367122*_`
 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./Image/Pares.jpg') }, { upload: Pares.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 templateMessage: {
@@ -3094,9 +3093,9 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "1000",
 "retailerId": `Nomor Owner Di Atas`,
-"url": `https://wa.me/6281327496283`
+"url": `https://wa.me/6287731367122`
 },
-"businessOwnerJid": "6281327496283@s.whatsapp.net",
+"businessOwnerJid": "6287731367122@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: lep  })
 Pares.relayMessage(num, catalog.message, { messageId: catalog.key.id })
@@ -3141,9 +3140,9 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "1000",
 "retailerId": `Nomor Owner Di Atas`,
-"url": `https://wa.me/6281327496283`
+"url": `https://wa.me/6287731367122`
 },
-"businessOwnerJid": "6281327496283@s.whatsapp.net",
+"businessOwnerJid": "6287731367122@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: lep  })
 Pares.relayMessage(num, catalog.message, { messageId: catalog.key.id })
@@ -3168,7 +3167,7 @@ if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah 
                             }, {
                                 callButton: {
                                     displayText: 'Nomor Owner',
-                                    phoneNumber: '6281327496283'
+                                    phoneNumber: '6287731367122'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4107,7 +4106,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4262,7 +4261,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4320,7 +4319,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4356,7 +4355,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix+command}`}}]
@@ -4418,7 +4417,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4477,7 +4476,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4510,7 +4509,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4641,7 +4640,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4685,7 +4684,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4745,7 +4744,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4782,7 +4781,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Back To Menu","id": `${prefix}menu`}}]
@@ -4823,7 +4822,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -5071,7 +5070,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -5103,7 +5102,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -5136,7 +5135,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 },
 {"quickReplyButton": {"displayText": "Next","id": `${prefix + command}`}}]
@@ -5190,7 +5189,7 @@ hydratedButtons: [
 {
 urlButton: {
 displayText: 'Owner Pares',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 }]
 }
@@ -5226,7 +5225,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 }]
 }
@@ -5697,27 +5696,6 @@ if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah 
 if (!q) throw `Link Nya?`
 sticWait(from)
 Pares.sendMessage(from, { image: { url: `https://api.lolhuman.xyz/api/ssweb?apikey=${lolkey}&url=${q}`}})
-break
-case 'xnxxsearch':
-if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
-
-                    if (args.length == 0) return replyNya(`Example: ${prefix + command} Japanese`)
-                    sticWait(from)
-                    query = args.join(" ")
-                    csksyu = await fetchJson(`https://api.lolhuman.xyz/api/xnxxsearch?apikey=${lolkey}&query=${query}`)
-                    csksyz = csksyu.result
-                    ini_txt = ""
-                    for (var x of csksyz) {
-                        ini_txt = `Title : ${x.title}\n`
-                        ini_txt += `Views : ${x.views}\n`
-                        ini_txt += `Duration : ${x.duration}\n`
-                        ini_txt += `Uploader : ${x.uploader}\n`
-                        ini_txt += `Link : ${x.link}\n`
-                        ini_txt += `Thumbnail : ${x.thumbnail}\n\n`
-                    }
-anu = `${ini_txt}───────────────\n\n┌ ◪ *DOWNLOAD*
-└ ${prefix}xnxxvideo [link]`
-Pares.sendMessage(from, { text: anu }, { quoted: fakePares })
 break
               case 'spotifysearch':
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
@@ -6190,7 +6168,7 @@ url: 'https://github.com/Pares'
 {
 urlButton: {
 displayText: 'MyOwner',
-url: 'https://wa.me/6281327496283'
+url: 'https://wa.me/6287731367122'
 }
 }]
 }
@@ -6346,7 +6324,7 @@ if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah 
 if (!text) return reply(`Link Nya Kak???`)
 if (!isUrl(args[0]) && !args[0].includes('mediafire.com')) return reply(`Contoh ${prefix+command} https://www.mediafire.com/file/uoo686zvjoouwpr/SC_GRUB_OKEP_%255BNO_CURL_S2M%255D.zip/file`)
 const { mediafire } = require('./scrape/mediafire')
-const djej = "6281327496283@s.whatsapp.net"
+const djej = "6287731367122@s.whatsapp.net"
 const zk = await mediafire(`${text}`)
 console.log(zk)
 const mbc = `Nih Kak @${sender.split("@")[0]}\nDownload File Di Atas Yah\n\nUrl : ${zk.url}\nUrl² : ${zk.url2}\nFilename : ${zk.filename}\nFiletype : ${zk.filetype}\nExt : ${zk.ext}\nUpload : ${zk.aploud}\nFilesizeH : ${zk.filesizeH}\nFilesize : ${zk.filesize}`
